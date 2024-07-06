@@ -14,8 +14,10 @@ More advanced dev tool extension for Chrome to record HAR files, with remote int
 https://github.com/cyrus-and/chrome-har-capturer
 
 ## TODO
-
-- [ ] Create a simple chrome extension to record HARs
+- [ ] Create simple chrome extension
+- [ ] Create simple chrome extension with UI interactions
+- [ ] Examine the existing chrome extensions for recording HAR
+- [ ] Create a simple chrome extension with record action
 - [ ] Support for Chrome
 - [ ] Triggered recording of HAR, like an automation recorder
 - [ ] Creating a mock server from HAR

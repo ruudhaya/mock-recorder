@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "FunImageReplacer",
+    "version": "1.0.0",
+    "description": "Extension for Fun and Learning, replaces images on web page with default list of images",
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"], // Match all URLs, can be restricted to specific URLs with "https://www.youtube.com/*"
+            "js": ["content.js"]
+        }
+    ]
+}
